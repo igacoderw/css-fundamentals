@@ -102,3 +102,18 @@ body {
     text-align: left;
     margin-bottom: 1rem;
 }
+
+.dark-blue-text {
+    color: #272341;
+}
+
+.project-wrapperText {
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.project-wrapperText-title {
+    margin-bottom: 1.8rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
