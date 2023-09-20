@@ -1,0 +1,122 @@
+/* // COLORS
+$primary-color: #02aab0;
+$secondary-color: #00cdac;
+
+$white-color: #fff;
+
+$dark-grey: #333333;
+$light-grey: #d2d2d2;
+
+$dark-blue-text: #272341; // For Headings
+
+// FONT SIZE
+$default-font-size: 1.6rem;
+$big-font-size: 4rem;
+$mid-font-size: 2.5rem; */
+
+html {
+    font-size: 62.5%;
+
+    &.sr .load-hidden {
+        visibility: hidden;
+    }
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d2d2d2;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #02aab0;
+}
+
+
+#hero {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+    background: #fff;
+    font-weight: 400;
+    color: #272341;
+    padding: 0rem 5.6rem;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.hero-title {
+    margin-bottom: 32px;
+}
+
+.cta-btn {
+    border-style: solid;
+    border-width: 2px;
+    border-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+    border-image-slice: 1;
+    padding: 4px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #000;
+    /* background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%); */
+
+}
+
+.text-color-main {
+    color: #fff;
+    background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+}
+
+#about {
+    background-color: #02aab0;
+    background-image: linear-gradient(135deg,
+            #02aab0 0%,
+            #00cdac 100%);
+    color: #fff;
+    height: 100%;
+    border-top: 0px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    padding-bottom: 10%;
+}
+
+.section-title {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 32px;
+    color: white;
+}
+
+.about-wrapper {
+    display: flex;
+    width: 100%;
+    padding: 0 32px;
+}
+
+.col-md-6 {
+    width: 50%
+}
+
+.about-wrapper__info-text {
+    color: #fff;
+}
